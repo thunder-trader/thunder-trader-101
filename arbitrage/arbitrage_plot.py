@@ -45,7 +45,7 @@ def load_tick_data(future_type, start_data):
     return result
 
 
-def merge(data):
+def align_ticks(data):
     h = []
     names = set(data.keys())
     for k, v in data.items():
@@ -136,7 +136,7 @@ if __name__ == '__main__':
     for type in future_types:
         ticks = load_tick_data(type, "20250501")
         print(ticks.keys())
-        serials = merge(ticks)
+        serials = align_ticks(ticks)
         names = list(serials.keys())
         names.sort()
         plot_list = []
