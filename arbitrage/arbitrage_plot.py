@@ -19,7 +19,7 @@ REPORT_PATH = "/publish/future_price_diff"
 # Data center
 DATA_CENTER = "http://192.168.3.44:70"
 # Configuration which described instruments need to be calculate
-CONFIGURATION = """[{"enable":1,"sfit":"a"},{"enable":1,"sfit":"b"},{"enable":1,"sfit":"c"},{"enable":1,"sfit":"ag"}]"""
+CONFIGURATION = """[{"enable":1,"sfit":"b"},{"enable":1,"sfit":"c"},{"enable":1,"sfit":"ag"},{"enable":1,"sfit":"rb"}]"""
 
 def load_tick_data(future_type, start_data):
     """
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     future_types = read_configuration(CONFIGURATION)
     logging.info(future_types)
     for type in future_types:
-        ticks = load_tick_data(type, "20250501")
+        ticks = load_tick_data(type, "20250301")
         print(ticks.keys())
         serials = align_ticks(ticks)
         names = list(serials.keys())
