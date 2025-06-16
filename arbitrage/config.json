@@ -1,0 +1,334 @@
+[
+    {
+        "enable": 1,
+        "sfit": "eg"
+    },
+    {
+        "enable": 0,
+        "sfit": "SM"
+    },
+    {
+        "enable": 1,
+        "sfit": "OI"
+    },
+    {
+        "enable": 0,
+        "sfit": "LR"
+    },
+    {
+        "enable": 0,
+        "sfit": "ad"
+    },
+    {
+        "enable": 0,
+        "sfit": "IF"
+    },
+    {
+        "enable": 0,
+        "sfit": "ec"
+    },
+    {
+        "enable": 1,
+        "sfit": "lg"
+    },
+    {
+        "enable": 0,
+        "sfit": "AP"
+    },
+    {
+        "enable": 0,
+        "sfit": "cu"
+    },
+    {
+        "enable": 0,
+        "sfit": "PF"
+    },
+    {
+        "enable": 1,
+        "sfit": "b"
+    },
+    {
+        "enable": 1,
+        "sfit": "p"
+    },
+    {
+        "enable": 1,
+        "sfit": "UR"
+    },
+    {
+        "enable": 0,
+        "sfit": "hc"
+    },
+    {
+        "enable": 0,
+        "sfit": "JR"
+    },
+    {
+        "enable": 1,
+        "sfit": "lh"
+    },
+    {
+        "enable": 0,
+        "sfit": "l"
+    },
+    {
+        "enable": 0,
+        "sfit": "RI"
+    },
+    {
+        "enable": 0,
+        "sfit": "i"
+    },
+    {
+        "enable": 0,
+        "sfit": "ag"
+    },
+    {
+        "enable": 1,
+        "sfit": "CF"
+    },
+    {
+        "enable": 0,
+        "sfit": "TF"
+    },
+    {
+        "enable": 1,
+        "sfit": "PK"
+    },
+    {
+        "enable": 1,
+        "sfit": "WH"
+    },
+    {
+        "enable": 0,
+        "sfit": "SF"
+    },
+    {
+        "enable": 1,
+        "sfit": "SH"
+    },
+    {
+        "enable": 0,
+        "sfit": "PM"
+    },
+    {
+        "enable": 0,
+        "sfit": "zn"
+    },
+    {
+        "enable": 0,
+        "sfit": "bc"
+    },
+    {
+        "enable": 1,
+        "sfit": "c"
+    },
+    {
+        "enable": 0,
+        "sfit": "au"
+    },
+    {
+        "enable": 0,
+        "sfit": "IC"
+    },
+    {
+        "enable": 0,
+        "sfit": "ss"
+    },
+    {
+        "enable": 0,
+        "sfit": "IH"
+    },
+    {
+        "enable": 0,
+        "sfit": "br"
+    },
+    {
+        "enable": 1,
+        "sfit": "CY"
+    },
+    {
+        "enable": 0,
+        "sfit": "pb"
+    },
+    {
+        "enable": 0,
+        "sfit": "nr"
+    },
+    {
+        "enable": 1,
+        "sfit": "y"
+    },
+    {
+        "enable": 0,
+        "sfit": "TS"
+    },
+    {
+        "enable": 0,
+        "sfit": "TA"
+    },
+    {
+        "enable": 0,
+        "sfit": "IM"
+    },
+    {
+        "enable": 1,
+        "sfit": "SR"
+    },
+    {
+        "enable": 0,
+        "sfit": "T"
+    },
+    {
+        "enable": 0,
+        "sfit": "al"
+    },
+    {
+        "enable": 1,
+        "sfit": "SA"
+    },
+    {
+        "enable": 1,
+        "sfit": "eb"
+    },
+    {
+        "enable": 1,
+        "sfit": "j"
+    },
+    {
+        "enable": 0,
+        "sfit": "fu"
+    },
+    {
+        "enable": 1,
+        "sfit": "RM"
+    },
+    {
+        "enable": 0,
+        "sfit": "si"
+    },
+    {
+        "enable": 0,
+        "sfit": "ao"
+    },
+    {
+        "enable": 0,
+        "sfit": "fb"
+    },
+    {
+        "enable": 0,
+        "sfit": "ZC"
+    },
+    {
+        "enable": 0,
+        "sfit": "lu"
+    },
+    {
+        "enable": 1,
+        "sfit": "cs"
+    },
+    {
+        "enable": 1,
+        "sfit": "RS"
+    },
+    {
+        "enable": 0,
+        "sfit": "rb"
+    },
+    {
+        "enable": 0,
+        "sfit": "ni"
+    },
+    {
+        "enable": 1,
+        "sfit": "jd"
+    },
+    {
+        "enable": 0,
+        "sfit": "bb"
+    },
+    {
+        "enable": 1,
+        "sfit": "m"
+    },
+    {
+        "enable": 0,
+        "sfit": "lc"
+    },
+    {
+        "enable": 0,
+        "sfit": "TL"
+    },
+    {
+        "enable": 0,
+        "sfit": "wr"
+    },
+    {
+        "enable": 1,
+        "sfit": "MA"
+    },
+    {
+        "enable": 0,
+        "sfit": "bu"
+    },
+    {
+        "enable": 0,
+        "sfit": "pg"
+    },
+    {
+        "enable": 0,
+        "sfit": "ps"
+    },
+    {
+        "enable": 1,
+        "sfit": "a"
+    },
+    {
+        "enable": 0,
+        "sfit": "sn"
+    },
+    {
+        "enable": 0,
+        "sfit": "v"
+    },
+    {
+        "enable": 1,
+        "sfit": "jm"
+    },
+    {
+        "enable": 0,
+        "sfit": "pp"
+    },
+    {
+        "enable": 0,
+        "sfit": "CJ"
+    },
+    {
+        "enable": 0,
+        "sfit": "PX"
+    },
+    {
+        "enable": 1,
+        "sfit": "rr"
+    },
+    {
+        "enable": 1,
+        "sfit": "PR"
+    },
+    {
+        "enable": 1,
+        "sfit": "FG"
+    },
+    {
+        "enable": 0,
+        "sfit": "sp"
+    },
+    {
+        "enable": 0,
+        "sfit": "sc"
+    },
+    {
+        "enable": 0,
+        "sfit": "ru"
+    }
+]

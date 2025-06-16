@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import logging
 import requests
 import datetime
@@ -19,13 +20,20 @@ REPORT_PATH = "/publish/future_price_diff"
 # Data center
 DATA_CENTER = "http://192.168.3.44:70"
 # Configuration which described instruments need to be calculate
-CONFIGURATION = """[{"enable":1,"sfit":"b"},{"enable":1,"sfit":"c"},{"enable":1,"sfit":"ag"},{"enable":1,"sfit":"rb"}]"""
+CONFIGURATION = """[
+{"enable":1,"sfit":"b"},
+{"enable":1,"sfit":"c"},
+{"enable":1,"sfit":"ag"},
+{"enable":1,"sfit":"rb"}
+]"""
+
+logger = logging.getLogger("arbitrage")
 
 def load_tick_data(future_type, start_data):
     """
     Load tick data of a given future type
     """
-    logging.info("loading data of `%s*`" % (future_type))
+    logger.info("loading data of `%s*`" % (future_type))
     result = dict()
     start = datetime.datetime.strptime(start_data, "%Y%m%d")
     end = datetime.datetime.today()
@@ -38,7 +46,7 @@ def load_tick_data(future_type, start_data):
     for name, value in instrument_records.items():
         if (re.match(pattern, value.get_instrument_id())):
             instrument_ids.append(value.get_unique_name())
-    logging.info("instrument list of `%s` is `%s`" % (future_type, instrument_ids))
+    logger.info("instrument list of `%s` is `%s`" % (future_type, instrument_ids))
     # Load tick data from data center for every instrument
     for item in instrument_ids:
         result[item] = ptu.load_from_data_center(item, start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), DATA_CENTER)
@@ -76,7 +84,7 @@ def align_ticks(data):
 
 
 def plot(left_plot, serials, slot0, slot1):
-    logging.info("ploting price diff of %s & %s" % (slot0, slot1))
+    logger.info("ploting price diff of %s & %s" % (slot0, slot1))
     for k, v in serials.items():
         if k == slot0:
             left_plot.plot(v, linewidth=3, alpha=1.0, color='tab:green', label=k)
@@ -111,6 +119,7 @@ def plot_helper(name_prefix, serials, plot_list):
         plot(left_plot, serials, plot_list[i][0], plot_list[i][1])
     plt.savefig("%s/%s.png" % (REPORT_PATH, name_prefix), dpi=50, transparent=True)
     plt.close()
+    logger.info("instrument report `%s` is saved" % (name_prefix))
 
 
 def read_configuration(conf):
@@ -126,16 +135,23 @@ def read_configuration(conf):
             result.add(conf['sfit'])
     return result
 
+    
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
+    logHandler = logging.FileHandler("/publish/arbitrage.%s.log" % (datetime.datetime.now().date()))
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    logHandler.setFormatter(formatter)
+    logger.addHandler(logHandler)
     if not os.path.exists(REPORT_PATH):
         os.makedirs(REPORT_PATH)
+    with open(sys.argv[1], "r") as f:
+        CONFIGURATION = f.read()
     future_types = read_configuration(CONFIGURATION)
-    logging.info(future_types)
+    logger.info(future_types)
     for type in future_types:
         ticks = load_tick_data(type, "20250301")
-        print(ticks.keys())
+        logger.info(ticks.keys())
         serials = align_ticks(ticks)
         names = list(serials.keys())
         names.sort()
