@@ -15,7 +15,7 @@ import pythunder.system
 import pythunder.instrument
 import pythunder.tickutils as ptu
 
-START_DATE = "20250616"
+START_DATE = "20250601"
 # Output path
 REPORT_PATH = "/publish/future_price_diff"
 # Data center
@@ -69,28 +69,26 @@ def align_ticks(data):
     names = set(data.keys())
     for k, v in data.items():
         for tick in v:
-            heapq.heappush(h, (tick.timestamp, "%s.%s" % (tick.tick_type, tick.instrument_id), tick.last_price, tick.datetime))
+            h.append((tick.timestamp, "%s.%s" % (tick.tick_type, tick.instrument_id), tick.last_price, tick.datetime))
     heapq.heapify(h)
     result = dict()
     timestamp = []
     window = lambda t : int(t[0] / 60000)
 
     while len(h) != 0:
-        sample = dict()
-        tick = heapq.heappop(h)
-        sample[tick[1]] = tick[2]
-        window_index = window(tick)
-        while len(h) != 0 and window(h[0]) == window_index:
+        frame_data = dict()
+        frame_id = window(h[0])
+        while len(h) != 0 and window(h[0]) == frame_id:
             tick = heapq.heappop(h)
-            sample[tick[1]] = tick[2]
-        for i in names.difference(sample.keys()):
-            sample[i] = float("nan")
+            frame_data[tick[1]] = tick[2]
+        for i in names.difference(frame_data.keys()):
+            frame_data[i] = float("nan")
 
-        for k, v in sample.items():
+        for k, v in frame_data.items():
             if k not in result:
                 result[k] = []
             result[k].append(v)
-        timestamp.append(window_index * 60000)
+        timestamp.append(frame_id * 60000)
     return result
 
 
@@ -186,8 +184,8 @@ if __name__ == '__main__':
             ticks[serial_0] = load_tick_data_by_name(serial_0, START_DATE)
             ticks[serial_1] = load_tick_data_by_name(serial_1, START_DATE)
             serials = align_ticks(ticks)
-            last_price_0 = [t.last_price * multiply_0 for t in ticks[serial_0]]
-            last_price_1 = [t.last_price * multiply_1 for t in ticks[serial_1]]
+            last_price_0 = [t * multiply_0 for t in serials[serial_0]]
+            last_price_1 = [t * multiply_1 for t in serials[serial_1]]
             size = len(last_price_0)
             last_price_diff = [last_price_0[i] - last_price_1[i] for i in range(0, size)]
             fig = plt.figure(tight_layout=True, figsize=(20, 10))
