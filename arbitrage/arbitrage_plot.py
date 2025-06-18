@@ -15,7 +15,6 @@ import pythunder.system
 import pythunder.instrument
 import pythunder.tickutils as ptu
 
-
 START_DATE = "20250616"
 # Output path
 REPORT_PATH = "/publish/future_price_diff"
