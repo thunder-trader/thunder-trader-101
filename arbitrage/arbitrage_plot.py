@@ -64,7 +64,7 @@ def load_tick_data_by_type(future_type, start_data):
     return result
 
 
-def align_ticks(data):
+def align_ticks(data, window_size):
     h = []
     names = set(data.keys())
     for k, v in data.items():
@@ -73,7 +73,7 @@ def align_ticks(data):
     heapq.heapify(h)
     result = dict()
     timestamp = []
-    window = lambda t : int(t[0] / 60000)
+    window = lambda t : int(t[0] / window_size)
 
     while len(h) != 0:
         frame_data = dict()
@@ -167,7 +167,7 @@ if __name__ == '__main__':
         if cfg["type"] == "cross_time":
             ticks = load_tick_data_by_type(cfg["instruemnt"], START_DATE)
             logger.info(ticks.keys())
-            serials = align_ticks(ticks)
+            serials = align_ticks(ticks, 20000)
             names = list(serials.keys())
             names.sort()
             plot_list = []
@@ -183,7 +183,7 @@ if __name__ == '__main__':
 
             ticks[serial_0] = load_tick_data_by_name(serial_0, START_DATE)
             ticks[serial_1] = load_tick_data_by_name(serial_1, START_DATE)
-            serials = align_ticks(ticks)
+            serials = align_ticks(ticks, 60000)
             last_price_0 = [t * multiply_0 for t in serials[serial_0]]
             last_price_1 = [t * multiply_1 for t in serials[serial_1]]
             size = len(last_price_0)
