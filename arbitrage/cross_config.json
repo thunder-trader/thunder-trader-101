@@ -1,0 +1,16 @@
+[
+    {
+        "enable": 0,
+        "sfit": "cu"
+    },
+    {
+        "enable": 1,
+        "slot_0": { "name": "sfit.future.bc2507", "multiply": 1 },
+        "slot_1": { "name": "sfit.future.cu2507", "multiply": 1 }
+    },
+    {
+        "enable": 1,
+        "slot_0": { "name": "sfit.future.j2507", "multiply": 1 },
+        "slot_1": { "name": "sfit.future.jm2507", "multiply": 2 }
+    }
+]

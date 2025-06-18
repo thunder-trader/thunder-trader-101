@@ -1,256 +1,944 @@
-nohup: ignoring input
-INFO:arbitrage:{'MA', 'y', 'FG', 'PR', 'eg', 'a', 'p', 'c', 'OI', 'CY', 'b', 'cs', 'SH', 'jm', 'm', 'SR', 'rr', 'RM', 'UR', 'PK', 'lg', 'eb', 'CF', 'RS', 'jd', 'WH', 'j', 'SA', 'lh'}
+INFO:arbitrage:[{'type': 'cross_time', 'instruemnt': 'eg'}, {'type': 'cross_time', 'instruemnt': 'OI'}, {'type': 'cross_time', 'instruemnt': 'lg'}, {'type': 'cross_time', 'instruemnt': 'b'}, {'type': 'cross_time', 'instruemnt': 'p'}, {'type': 'cross_time', 'instruemnt': 'UR'}, {'type': 'cross_time', 'instruemnt': 'lh'}, {'type': 'cross_time', 'instruemnt': 'CF'}, {'type': 'cross_time', 'instruemnt': 'PK'}, {'type': 'cross_time', 'instruemnt': 'WH'}, {'type': 'cross_time', 'instruemnt': 'SH'}, {'type': 'cross_time', 'instruemnt': 'bc'}, {'type': 'cross_time', 'instruemnt': 'c'}, {'type': 'cross_time', 'instruemnt': 'CY'}, {'type': 'cross_time', 'instruemnt': 'y'}, {'type': 'cross_time', 'instruemnt': 'SR'}, {'type': 'cross_time', 'instruemnt': 'SA'}, {'type': 'cross_time', 'instruemnt': 'eb'}, {'type': 'cross_time', 'instruemnt': 'j'}, {'type': 'cross_time', 'instruemnt': 'RM'}, {'type': 'cross_time', 'instruemnt': 'cs'}, {'type': 'cross_time', 'instruemnt': 'RS'}, {'type': 'cross_time', 'instruemnt': 'jd'}, {'type': 'cross_time', 'instruemnt': 'm'}, {'type': 'cross_time', 'instruemnt': 'MA'}, {'type': 'cross_time', 'instruemnt': 'a'}, {'type': 'cross_time', 'instruemnt': 'jm'}, {'type': 'cross_time', 'instruemnt': 'rr'}, {'type': 'cross_time', 'instruemnt': 'PR'}, {'type': 'cross_time', 'instruemnt': 'FG'}]
+INFO:arbitrage:loading data of `eg*`
+INFO:arbitrage:instrument list of `eg` is `['sfit.future.eg2509', 'sfit.future.eg2507', 'sfit.future.eg2506', 'sfit.future.eg2510', 'sfit.future.eg2508', 'sfit.future.eg2511', 'sfit.future.eg2512', 'sfit.future.eg2601', 'sfit.future.eg2602', 'sfit.future.eg2603', 'sfit.future.eg2604', 'sfit.future.eg2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.5s (1.33/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (2.10/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2506]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.70/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.55/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.15/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.18/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.82/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.57/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.32/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.84/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.59/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eg2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.16/s) 
+INFO:arbitrage:dict_keys(['sfit.future.eg2509', 'sfit.future.eg2507', 'sfit.future.eg2506', 'sfit.future.eg2510', 'sfit.future.eg2508', 'sfit.future.eg2511', 'sfit.future.eg2512', 'sfit.future.eg2601', 'sfit.future.eg2602', 'sfit.future.eg2603', 'sfit.future.eg2604', 'sfit.future.eg2605'])
+INFO:arbitrage:ploting price diff of sfit.future.eg2506 & sfit.future.eg2507
+INFO:arbitrage:ploting price diff of sfit.future.eg2507 & sfit.future.eg2508
+INFO:arbitrage:ploting price diff of sfit.future.eg2508 & sfit.future.eg2509
+INFO:arbitrage:ploting price diff of sfit.future.eg2509 & sfit.future.eg2510
+INFO:arbitrage:ploting price diff of sfit.future.eg2510 & sfit.future.eg2511
+INFO:arbitrage:ploting price diff of sfit.future.eg2511 & sfit.future.eg2512
+INFO:arbitrage:ploting price diff of sfit.future.eg2512 & sfit.future.eg2601
+INFO:arbitrage:ploting price diff of sfit.future.eg2601 & sfit.future.eg2602
+INFO:arbitrage:ploting price diff of sfit.future.eg2602 & sfit.future.eg2603
+INFO:arbitrage:ploting price diff of sfit.future.eg2603 & sfit.future.eg2604
+INFO:arbitrage:ploting price diff of sfit.future.eg2604 & sfit.future.eg2605
+INFO:arbitrage:instrument report `eg` is saved
+INFO:arbitrage:loading data of `OI*`
+INFO:arbitrage:instrument list of `OI` is `['sfit.future.OI509', 'sfit.future.OI507', 'sfit.future.OI601', 'sfit.future.OI511', 'sfit.future.OI603', 'sfit.future.OI605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.OI509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.4s (1.41/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.OI507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.18/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.OI601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.26/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.OI511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.44/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.OI603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.97/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.OI605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.51/s) 
+INFO:arbitrage:dict_keys(['sfit.future.OI509', 'sfit.future.OI507', 'sfit.future.OI601', 'sfit.future.OI511', 'sfit.future.OI603', 'sfit.future.OI605'])
+INFO:arbitrage:ploting price diff of sfit.future.OI507 & sfit.future.OI509
+INFO:arbitrage:ploting price diff of sfit.future.OI509 & sfit.future.OI511
+INFO:arbitrage:ploting price diff of sfit.future.OI511 & sfit.future.OI601
+INFO:arbitrage:ploting price diff of sfit.future.OI601 & sfit.future.OI603
+INFO:arbitrage:ploting price diff of sfit.future.OI603 & sfit.future.OI605
+INFO:arbitrage:instrument report `OI` is saved
+INFO:arbitrage:loading data of `lg*`
+INFO:arbitrage:instrument list of `lg` is `['sfit.future.lg2601', 'sfit.future.lg2509', 'sfit.future.lg2507', 'sfit.future.lg2511', 'sfit.future.lg2603', 'sfit.future.lg2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.lg2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.26/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lg2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.44/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lg2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (3.06/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lg2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.71/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lg2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (5.88/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lg2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.17/s) 
+INFO:arbitrage:dict_keys(['sfit.future.lg2601', 'sfit.future.lg2509', 'sfit.future.lg2507', 'sfit.future.lg2511', 'sfit.future.lg2603', 'sfit.future.lg2605'])
+INFO:arbitrage:ploting price diff of sfit.future.lg2507 & sfit.future.lg2509
+INFO:arbitrage:ploting price diff of sfit.future.lg2509 & sfit.future.lg2511
+INFO:arbitrage:ploting price diff of sfit.future.lg2511 & sfit.future.lg2601
+INFO:arbitrage:ploting price diff of sfit.future.lg2601 & sfit.future.lg2603
+INFO:arbitrage:ploting price diff of sfit.future.lg2603 & sfit.future.lg2605
+INFO:arbitrage:instrument report `lg` is saved
+INFO:arbitrage:loading data of `b*`
+INFO:arbitrage:instrument list of `b` is `['sfit.future.b2507', 'sfit.future.b2509', 'sfit.future.b2508', 'sfit.future.b2506', 'sfit.future.b2510', 'sfit.future.b2512', 'sfit.future.b2602', 'sfit.future.b2601', 'sfit.future.b2511', 'sfit.future.b2603', 'sfit.future.b2604', 'sfit.future.b2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 2.7s (0.74/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.2s (1.67/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.43/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.b2506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (23.71/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 2.0s (0.99/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.14/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.54/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.52/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.29/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (1.92/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.29/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.b2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.61/s) 
+INFO:arbitrage:dict_keys(['sfit.future.b2507', 'sfit.future.b2509', 'sfit.future.b2508', 'sfit.future.b2506', 'sfit.future.b2510', 'sfit.future.b2512', 'sfit.future.b2602', 'sfit.future.b2601', 'sfit.future.b2511', 'sfit.future.b2603', 'sfit.future.b2604', 'sfit.future.b2605'])
+INFO:arbitrage:ploting price diff of sfit.future.b2506 & sfit.future.b2507
+INFO:arbitrage:ploting price diff of sfit.future.b2507 & sfit.future.b2508
+INFO:arbitrage:ploting price diff of sfit.future.b2508 & sfit.future.b2509
+INFO:arbitrage:ploting price diff of sfit.future.b2509 & sfit.future.b2510
+INFO:arbitrage:ploting price diff of sfit.future.b2510 & sfit.future.b2511
+INFO:arbitrage:ploting price diff of sfit.future.b2511 & sfit.future.b2512
+INFO:arbitrage:ploting price diff of sfit.future.b2512 & sfit.future.b2601
+INFO:arbitrage:ploting price diff of sfit.future.b2601 & sfit.future.b2602
+INFO:arbitrage:ploting price diff of sfit.future.b2602 & sfit.future.b2603
+INFO:arbitrage:ploting price diff of sfit.future.b2603 & sfit.future.b2604
+INFO:arbitrage:ploting price diff of sfit.future.b2604 & sfit.future.b2605
+INFO:arbitrage:instrument report `b` is saved
+INFO:arbitrage:loading data of `p*`
+INFO:arbitrage:instrument list of `p` is `['sfit.future.p2509', 'sfit.future.p2508', 'sfit.future.p2506', 'sfit.future.p2507', 'sfit.future.p2510', 'sfit.future.p2602', 'sfit.future.p2512', 'sfit.future.p2603', 'sfit.future.p2601', 'sfit.future.p2511', 'sfit.future.p2604', 'sfit.future.p2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.5s (1.35/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.50/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.p2506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (21.42/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.70/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.61/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.22/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.13/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.35/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.74/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.1s (1.88/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.99/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.p2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.47/s) 
+INFO:arbitrage:dict_keys(['sfit.future.p2509', 'sfit.future.p2508', 'sfit.future.p2506', 'sfit.future.p2507', 'sfit.future.p2510', 'sfit.future.p2602', 'sfit.future.p2512', 'sfit.future.p2603', 'sfit.future.p2601', 'sfit.future.p2511', 'sfit.future.p2604', 'sfit.future.p2605'])
+INFO:arbitrage:ploting price diff of sfit.future.p2506 & sfit.future.p2507
+INFO:arbitrage:ploting price diff of sfit.future.p2507 & sfit.future.p2508
+INFO:arbitrage:ploting price diff of sfit.future.p2508 & sfit.future.p2509
+INFO:arbitrage:ploting price diff of sfit.future.p2509 & sfit.future.p2510
+INFO:arbitrage:ploting price diff of sfit.future.p2510 & sfit.future.p2511
+INFO:arbitrage:ploting price diff of sfit.future.p2511 & sfit.future.p2512
+INFO:arbitrage:ploting price diff of sfit.future.p2512 & sfit.future.p2601
+INFO:arbitrage:ploting price diff of sfit.future.p2601 & sfit.future.p2602
+INFO:arbitrage:ploting price diff of sfit.future.p2602 & sfit.future.p2603
+INFO:arbitrage:ploting price diff of sfit.future.p2603 & sfit.future.p2604
+INFO:arbitrage:ploting price diff of sfit.future.p2604 & sfit.future.p2605
+INFO:arbitrage:instrument report `p` is saved
+INFO:arbitrage:loading data of `UR*`
+INFO:arbitrage:instrument list of `UR` is `['sfit.future.UR509', 'sfit.future.UR508', 'sfit.future.UR506', 'sfit.future.UR507', 'sfit.future.UR510', 'sfit.future.UR512', 'sfit.future.UR602', 'sfit.future.UR603', 'sfit.future.UR601', 'sfit.future.UR511', 'sfit.future.UR604', 'sfit.future.UR605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.36/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.30/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.UR506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (41.80/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (10.24/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.67/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (11.49/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.57/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (5.97/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.61/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (13.19/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.28/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.UR605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.38/s) 
+INFO:arbitrage:dict_keys(['sfit.future.UR509', 'sfit.future.UR508', 'sfit.future.UR506', 'sfit.future.UR507', 'sfit.future.UR510', 'sfit.future.UR512', 'sfit.future.UR602', 'sfit.future.UR603', 'sfit.future.UR601', 'sfit.future.UR511', 'sfit.future.UR604', 'sfit.future.UR605'])
+INFO:arbitrage:ploting price diff of sfit.future.UR506 & sfit.future.UR507
+INFO:arbitrage:ploting price diff of sfit.future.UR507 & sfit.future.UR508
+INFO:arbitrage:ploting price diff of sfit.future.UR508 & sfit.future.UR509
+INFO:arbitrage:ploting price diff of sfit.future.UR509 & sfit.future.UR510
+INFO:arbitrage:ploting price diff of sfit.future.UR510 & sfit.future.UR511
+INFO:arbitrage:ploting price diff of sfit.future.UR511 & sfit.future.UR512
+INFO:arbitrage:ploting price diff of sfit.future.UR512 & sfit.future.UR601
+INFO:arbitrage:ploting price diff of sfit.future.UR601 & sfit.future.UR602
+INFO:arbitrage:ploting price diff of sfit.future.UR602 & sfit.future.UR603
+INFO:arbitrage:ploting price diff of sfit.future.UR603 & sfit.future.UR604
+INFO:arbitrage:ploting price diff of sfit.future.UR604 & sfit.future.UR605
+INFO:arbitrage:instrument report `UR` is saved
+INFO:arbitrage:loading data of `lh*`
+INFO:arbitrage:instrument list of `lh` is `['sfit.future.lh2509', 'sfit.future.lh2507', 'sfit.future.lh2511', 'sfit.future.lh2601', 'sfit.future.lh2603', 'sfit.future.lh2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.lh2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.27/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lh2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.74/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lh2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.69/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lh2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (12.50/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lh2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (9.31/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.lh2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (10.11/s) 
+INFO:arbitrage:dict_keys(['sfit.future.lh2509', 'sfit.future.lh2507', 'sfit.future.lh2511', 'sfit.future.lh2601', 'sfit.future.lh2603', 'sfit.future.lh2605'])
+INFO:arbitrage:ploting price diff of sfit.future.lh2507 & sfit.future.lh2509
+INFO:arbitrage:ploting price diff of sfit.future.lh2509 & sfit.future.lh2511
+INFO:arbitrage:ploting price diff of sfit.future.lh2511 & sfit.future.lh2601
+INFO:arbitrage:ploting price diff of sfit.future.lh2601 & sfit.future.lh2603
+INFO:arbitrage:ploting price diff of sfit.future.lh2603 & sfit.future.lh2605
+INFO:arbitrage:instrument report `lh` is saved
+INFO:arbitrage:loading data of `CF*`
+INFO:arbitrage:instrument list of `CF` is `['sfit.future.CF507', 'sfit.future.CF509', 'sfit.future.CF603', 'sfit.future.CF601', 'sfit.future.CF511', 'sfit.future.CF605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.CF507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 2.8s (0.72/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CF509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.62/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CF603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.42/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CF601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.95/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CF511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.61/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CF605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (3.03/s) 
+INFO:arbitrage:dict_keys(['sfit.future.CF507', 'sfit.future.CF509', 'sfit.future.CF603', 'sfit.future.CF601', 'sfit.future.CF511', 'sfit.future.CF605'])
+INFO:arbitrage:ploting price diff of sfit.future.CF507 & sfit.future.CF509
+INFO:arbitrage:ploting price diff of sfit.future.CF509 & sfit.future.CF511
+INFO:arbitrage:ploting price diff of sfit.future.CF511 & sfit.future.CF601
+INFO:arbitrage:ploting price diff of sfit.future.CF601 & sfit.future.CF603
+INFO:arbitrage:ploting price diff of sfit.future.CF603 & sfit.future.CF605
+INFO:arbitrage:instrument report `CF` is saved
+INFO:arbitrage:loading data of `PK*`
+INFO:arbitrage:instrument list of `PK` is `['sfit.future.PK510', 'sfit.future.PK512', 'sfit.future.PK603', 'sfit.future.PK601', 'sfit.future.PK511', 'sfit.future.PK604', 'sfit.future.PK605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.PK510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.70/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PK512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.25/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PK603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.97/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PK601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.29/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PK511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.09/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PK604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (5.86/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PK605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.87/s) 
+INFO:arbitrage:dict_keys(['sfit.future.PK510', 'sfit.future.PK512', 'sfit.future.PK603', 'sfit.future.PK601', 'sfit.future.PK511', 'sfit.future.PK604', 'sfit.future.PK605'])
+INFO:arbitrage:ploting price diff of sfit.future.PK510 & sfit.future.PK511
+INFO:arbitrage:ploting price diff of sfit.future.PK511 & sfit.future.PK512
+INFO:arbitrage:ploting price diff of sfit.future.PK512 & sfit.future.PK601
+INFO:arbitrage:ploting price diff of sfit.future.PK601 & sfit.future.PK603
+INFO:arbitrage:ploting price diff of sfit.future.PK603 & sfit.future.PK604
+INFO:arbitrage:ploting price diff of sfit.future.PK604 & sfit.future.PK605
+INFO:arbitrage:instrument report `PK` is saved
+INFO:arbitrage:loading data of `WH*`
+INFO:arbitrage:instrument list of `WH` is `['sfit.future.WH509', 'sfit.future.WH507', 'sfit.future.WH603', 'sfit.future.WH601', 'sfit.future.WH511', 'sfit.future.WH605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.WH509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (15.48/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.WH507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (27.00/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.WH603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (47.52/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.WH601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (57.44/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.WH511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (141.33/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.WH605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (88.32/s) 
+INFO:arbitrage:dict_keys(['sfit.future.WH509', 'sfit.future.WH507', 'sfit.future.WH603', 'sfit.future.WH601', 'sfit.future.WH511', 'sfit.future.WH605'])
+INFO:arbitrage:ploting price diff of sfit.future.WH507 & sfit.future.WH509
+INFO:arbitrage:ploting price diff of sfit.future.WH509 & sfit.future.WH511
+INFO:arbitrage:ploting price diff of sfit.future.WH511 & sfit.future.WH601
+INFO:arbitrage:ploting price diff of sfit.future.WH601 & sfit.future.WH603
+INFO:arbitrage:ploting price diff of sfit.future.WH603 & sfit.future.WH605
+INFO:arbitrage:instrument report `WH` is saved
+INFO:arbitrage:loading data of `SH*`
+INFO:arbitrage:instrument list of `SH` is `['sfit.future.SH506', 'sfit.future.SH508', 'sfit.future.SH507', 'sfit.future.SH509', 'sfit.future.SH510', 'sfit.future.SH602', 'sfit.future.SH512', 'sfit.future.SH601', 'sfit.future.SH511', 'sfit.future.SH604', 'sfit.future.SH605', 'sfit.future.SH603']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.SH506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (24.94/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.45/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.88/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.2s (1.63/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.75/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.24/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.96/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.40/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.46/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.27/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.93/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SH603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.43/s) 
+INFO:arbitrage:dict_keys(['sfit.future.SH506', 'sfit.future.SH508', 'sfit.future.SH507', 'sfit.future.SH509', 'sfit.future.SH510', 'sfit.future.SH602', 'sfit.future.SH512', 'sfit.future.SH601', 'sfit.future.SH511', 'sfit.future.SH604', 'sfit.future.SH605', 'sfit.future.SH603'])
+INFO:arbitrage:ploting price diff of sfit.future.SH506 & sfit.future.SH507
+INFO:arbitrage:ploting price diff of sfit.future.SH507 & sfit.future.SH508
+INFO:arbitrage:ploting price diff of sfit.future.SH508 & sfit.future.SH509
+INFO:arbitrage:ploting price diff of sfit.future.SH509 & sfit.future.SH510
+INFO:arbitrage:ploting price diff of sfit.future.SH510 & sfit.future.SH511
+INFO:arbitrage:ploting price diff of sfit.future.SH511 & sfit.future.SH512
+INFO:arbitrage:ploting price diff of sfit.future.SH512 & sfit.future.SH601
+INFO:arbitrage:ploting price diff of sfit.future.SH601 & sfit.future.SH602
+INFO:arbitrage:ploting price diff of sfit.future.SH602 & sfit.future.SH603
+INFO:arbitrage:ploting price diff of sfit.future.SH603 & sfit.future.SH604
+INFO:arbitrage:ploting price diff of sfit.future.SH604 & sfit.future.SH605
+INFO:arbitrage:instrument report `SH` is saved
+INFO:arbitrage:loading data of `bc*`
+INFO:arbitrage:instrument list of `bc` is `['sfit.future.bc2506', 'sfit.future.bc2509', 'sfit.future.bc2508', 'sfit.future.bc2507', 'sfit.future.bc2510', 'sfit.future.bc2603', 'sfit.future.bc2602', 'sfit.future.bc2511', 'sfit.future.bc2601', 'sfit.future.bc2605', 'sfit.future.bc2512', 'sfit.future.bc2604']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.bc2506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (11.96/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.37/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (5.77/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.32/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.24/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.1s (1.85/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (1.98/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.3s (1.60/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (2.04/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (2.05/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.1s (1.79/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.bc2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.38/s) 
+INFO:arbitrage:dict_keys(['sfit.future.bc2506', 'sfit.future.bc2509', 'sfit.future.bc2508', 'sfit.future.bc2507', 'sfit.future.bc2510', 'sfit.future.bc2603', 'sfit.future.bc2602', 'sfit.future.bc2511', 'sfit.future.bc2601', 'sfit.future.bc2605', 'sfit.future.bc2512', 'sfit.future.bc2604'])
+INFO:arbitrage:ploting price diff of sfit.future.bc2506 & sfit.future.bc2507
+INFO:arbitrage:ploting price diff of sfit.future.bc2507 & sfit.future.bc2508
+INFO:arbitrage:ploting price diff of sfit.future.bc2508 & sfit.future.bc2509
+INFO:arbitrage:ploting price diff of sfit.future.bc2509 & sfit.future.bc2510
+INFO:arbitrage:ploting price diff of sfit.future.bc2510 & sfit.future.bc2511
+INFO:arbitrage:ploting price diff of sfit.future.bc2511 & sfit.future.bc2512
+INFO:arbitrage:ploting price diff of sfit.future.bc2512 & sfit.future.bc2601
+INFO:arbitrage:ploting price diff of sfit.future.bc2601 & sfit.future.bc2602
+INFO:arbitrage:ploting price diff of sfit.future.bc2602 & sfit.future.bc2603
+INFO:arbitrage:ploting price diff of sfit.future.bc2603 & sfit.future.bc2604
+INFO:arbitrage:ploting price diff of sfit.future.bc2604 & sfit.future.bc2605
+INFO:arbitrage:instrument report `bc` is saved
+INFO:arbitrage:loading data of `c*`
+INFO:arbitrage:instrument list of `c` is `['sfit.future.c2507', 'sfit.future.c2509', 'sfit.future.c2601', 'sfit.future.c2511', 'sfit.future.c2603', 'sfit.future.c2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.c2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.7s (1.14/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.c2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.12/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.c2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.96/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.c2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.32/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.c2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (3.01/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.c2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.08/s) 
+INFO:arbitrage:dict_keys(['sfit.future.c2507', 'sfit.future.c2509', 'sfit.future.c2601', 'sfit.future.c2511', 'sfit.future.c2603', 'sfit.future.c2605'])
+INFO:arbitrage:ploting price diff of sfit.future.c2507 & sfit.future.c2509
+INFO:arbitrage:ploting price diff of sfit.future.c2509 & sfit.future.c2511
+INFO:arbitrage:ploting price diff of sfit.future.c2511 & sfit.future.c2601
+INFO:arbitrage:ploting price diff of sfit.future.c2601 & sfit.future.c2603
+INFO:arbitrage:ploting price diff of sfit.future.c2603 & sfit.future.c2605
+INFO:arbitrage:instrument report `c` is saved
+INFO:arbitrage:loading data of `CY*`
+INFO:arbitrage:instrument list of `CY` is `['sfit.future.CY509', 'sfit.future.CY508', 'sfit.future.CY506', 'sfit.future.CY507', 'sfit.future.CY510', 'sfit.future.CY512', 'sfit.future.CY602', 'sfit.future.CY603', 'sfit.future.CY601', 'sfit.future.CY511', 'sfit.future.CY604', 'sfit.future.CY605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.46/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (12.30/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.CY506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (47.97/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (10.23/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.03/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (5.84/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (12.83/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (13.71/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.31/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.91/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.23/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.CY605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (9.44/s) 
+INFO:arbitrage:dict_keys(['sfit.future.CY509', 'sfit.future.CY508', 'sfit.future.CY506', 'sfit.future.CY507', 'sfit.future.CY510', 'sfit.future.CY512', 'sfit.future.CY602', 'sfit.future.CY603', 'sfit.future.CY601', 'sfit.future.CY511', 'sfit.future.CY604', 'sfit.future.CY605'])
+INFO:arbitrage:ploting price diff of sfit.future.CY506 & sfit.future.CY507
+INFO:arbitrage:ploting price diff of sfit.future.CY507 & sfit.future.CY508
+INFO:arbitrage:ploting price diff of sfit.future.CY508 & sfit.future.CY509
+INFO:arbitrage:ploting price diff of sfit.future.CY509 & sfit.future.CY510
+INFO:arbitrage:ploting price diff of sfit.future.CY510 & sfit.future.CY511
+INFO:arbitrage:ploting price diff of sfit.future.CY511 & sfit.future.CY512
+INFO:arbitrage:ploting price diff of sfit.future.CY512 & sfit.future.CY601
+INFO:arbitrage:ploting price diff of sfit.future.CY601 & sfit.future.CY602
+INFO:arbitrage:ploting price diff of sfit.future.CY602 & sfit.future.CY603
+INFO:arbitrage:ploting price diff of sfit.future.CY603 & sfit.future.CY604
+INFO:arbitrage:ploting price diff of sfit.future.CY604 & sfit.future.CY605
+INFO:arbitrage:instrument report `CY` is saved
+INFO:arbitrage:loading data of `y*`
+INFO:arbitrage:instrument list of `y` is `['sfit.future.y2509', 'sfit.future.y2508', 'sfit.future.y2507', 'sfit.future.y2512', 'sfit.future.y2603', 'sfit.future.y2601', 'sfit.future.y2511', 'sfit.future.y2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.2s (1.61/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.66/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.13/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.10/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.63/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.27/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.90/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.y2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.23/s) 
+INFO:arbitrage:dict_keys(['sfit.future.y2509', 'sfit.future.y2508', 'sfit.future.y2507', 'sfit.future.y2512', 'sfit.future.y2603', 'sfit.future.y2601', 'sfit.future.y2511', 'sfit.future.y2605'])
+INFO:arbitrage:ploting price diff of sfit.future.y2507 & sfit.future.y2508
+INFO:arbitrage:ploting price diff of sfit.future.y2508 & sfit.future.y2509
+INFO:arbitrage:ploting price diff of sfit.future.y2509 & sfit.future.y2511
+INFO:arbitrage:ploting price diff of sfit.future.y2511 & sfit.future.y2512
+INFO:arbitrage:ploting price diff of sfit.future.y2512 & sfit.future.y2601
+INFO:arbitrage:ploting price diff of sfit.future.y2601 & sfit.future.y2603
+INFO:arbitrage:ploting price diff of sfit.future.y2603 & sfit.future.y2605
+INFO:arbitrage:instrument report `y` is saved
+INFO:arbitrage:loading data of `SR*`
+INFO:arbitrage:instrument list of `SR` is `['sfit.future.SR507', 'sfit.future.SR509', 'sfit.future.SR603', 'sfit.future.SR601', 'sfit.future.SR511', 'sfit.future.SR605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.SR507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.36/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SR509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (1.96/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SR603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.22/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SR601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.94/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SR511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.16/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SR605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.42/s) 
+INFO:arbitrage:dict_keys(['sfit.future.SR507', 'sfit.future.SR509', 'sfit.future.SR603', 'sfit.future.SR601', 'sfit.future.SR511', 'sfit.future.SR605'])
+INFO:arbitrage:ploting price diff of sfit.future.SR507 & sfit.future.SR509
+INFO:arbitrage:ploting price diff of sfit.future.SR509 & sfit.future.SR511
+INFO:arbitrage:ploting price diff of sfit.future.SR511 & sfit.future.SR601
+INFO:arbitrage:ploting price diff of sfit.future.SR601 & sfit.future.SR603
+INFO:arbitrage:ploting price diff of sfit.future.SR603 & sfit.future.SR605
+INFO:arbitrage:instrument report `SR` is saved
+INFO:arbitrage:loading data of `SA*`
+INFO:arbitrage:instrument list of `SA` is `['sfit.future.SA506', 'sfit.future.SA509', 'sfit.future.SA508', 'sfit.future.SA507', 'sfit.future.SA510', 'sfit.future.SA512', 'sfit.future.SA602', 'sfit.future.SA603', 'sfit.future.SA601', 'sfit.future.SA511', 'sfit.future.SA605', 'sfit.future.SA604']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.SA506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (19.26/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.1s (1.89/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.51/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (9.53/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.35/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (9.23/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.34/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.65/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.41/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.18/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.21/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.SA604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (12.49/s) 
+INFO:arbitrage:dict_keys(['sfit.future.SA506', 'sfit.future.SA509', 'sfit.future.SA508', 'sfit.future.SA507', 'sfit.future.SA510', 'sfit.future.SA512', 'sfit.future.SA602', 'sfit.future.SA603', 'sfit.future.SA601', 'sfit.future.SA511', 'sfit.future.SA605', 'sfit.future.SA604'])
+INFO:arbitrage:ploting price diff of sfit.future.SA506 & sfit.future.SA507
+INFO:arbitrage:ploting price diff of sfit.future.SA507 & sfit.future.SA508
+INFO:arbitrage:ploting price diff of sfit.future.SA508 & sfit.future.SA509
+INFO:arbitrage:ploting price diff of sfit.future.SA509 & sfit.future.SA510
+INFO:arbitrage:ploting price diff of sfit.future.SA510 & sfit.future.SA511
+INFO:arbitrage:ploting price diff of sfit.future.SA511 & sfit.future.SA512
+INFO:arbitrage:ploting price diff of sfit.future.SA512 & sfit.future.SA601
+INFO:arbitrage:ploting price diff of sfit.future.SA601 & sfit.future.SA602
+INFO:arbitrage:ploting price diff of sfit.future.SA602 & sfit.future.SA603
+INFO:arbitrage:ploting price diff of sfit.future.SA603 & sfit.future.SA604
+INFO:arbitrage:ploting price diff of sfit.future.SA604 & sfit.future.SA605
+INFO:arbitrage:instrument report `SA` is saved
+INFO:arbitrage:loading data of `eb*`
+INFO:arbitrage:instrument list of `eb` is `['sfit.future.eb2509', 'sfit.future.eb2507', 'sfit.future.eb2506', 'sfit.future.eb2510', 'sfit.future.eb2508', 'sfit.future.eb2511', 'sfit.future.eb2512', 'sfit.future.eb2601', 'sfit.future.eb2602', 'sfit.future.eb2603', 'sfit.future.eb2604', 'sfit.future.eb2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.67/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.13/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2506]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.15/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.69/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.61/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.19/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.41/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.29/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.24/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.73/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.97/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.eb2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.75/s) 
+INFO:arbitrage:dict_keys(['sfit.future.eb2509', 'sfit.future.eb2507', 'sfit.future.eb2506', 'sfit.future.eb2510', 'sfit.future.eb2508', 'sfit.future.eb2511', 'sfit.future.eb2512', 'sfit.future.eb2601', 'sfit.future.eb2602', 'sfit.future.eb2603', 'sfit.future.eb2604', 'sfit.future.eb2605'])
+INFO:arbitrage:ploting price diff of sfit.future.eb2506 & sfit.future.eb2507
+INFO:arbitrage:ploting price diff of sfit.future.eb2507 & sfit.future.eb2508
+INFO:arbitrage:ploting price diff of sfit.future.eb2508 & sfit.future.eb2509
+INFO:arbitrage:ploting price diff of sfit.future.eb2509 & sfit.future.eb2510
+INFO:arbitrage:ploting price diff of sfit.future.eb2510 & sfit.future.eb2511
+INFO:arbitrage:ploting price diff of sfit.future.eb2511 & sfit.future.eb2512
+INFO:arbitrage:ploting price diff of sfit.future.eb2512 & sfit.future.eb2601
+INFO:arbitrage:ploting price diff of sfit.future.eb2601 & sfit.future.eb2602
+INFO:arbitrage:ploting price diff of sfit.future.eb2602 & sfit.future.eb2603
+INFO:arbitrage:ploting price diff of sfit.future.eb2603 & sfit.future.eb2604
+INFO:arbitrage:ploting price diff of sfit.future.eb2604 & sfit.future.eb2605
+INFO:arbitrage:instrument report `eb` is saved
+INFO:arbitrage:loading data of `j*`
+INFO:arbitrage:instrument list of `j` is `['sfit.future.j2506', 'sfit.future.j2509', 'sfit.future.j2508', 'sfit.future.j2507', 'sfit.future.j2510', 'sfit.future.j2602', 'sfit.future.j2512', 'sfit.future.j2601', 'sfit.future.j2511', 'sfit.future.j2603', 'sfit.future.j2604', 'sfit.future.j2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.j2506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (36.16/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.37/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.32/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (44.32/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.32/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.49/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.10/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.75/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.71/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.62/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.15/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.j2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.61/s) 
+INFO:arbitrage:dict_keys(['sfit.future.j2506', 'sfit.future.j2509', 'sfit.future.j2508', 'sfit.future.j2507', 'sfit.future.j2510', 'sfit.future.j2602', 'sfit.future.j2512', 'sfit.future.j2601', 'sfit.future.j2511', 'sfit.future.j2603', 'sfit.future.j2604', 'sfit.future.j2605'])
+INFO:arbitrage:ploting price diff of sfit.future.j2506 & sfit.future.j2507
+INFO:arbitrage:ploting price diff of sfit.future.j2507 & sfit.future.j2508
+INFO:arbitrage:ploting price diff of sfit.future.j2508 & sfit.future.j2509
+INFO:arbitrage:ploting price diff of sfit.future.j2509 & sfit.future.j2510
+INFO:arbitrage:ploting price diff of sfit.future.j2510 & sfit.future.j2511
+INFO:arbitrage:ploting price diff of sfit.future.j2511 & sfit.future.j2512
+INFO:arbitrage:ploting price diff of sfit.future.j2512 & sfit.future.j2601
+INFO:arbitrage:ploting price diff of sfit.future.j2601 & sfit.future.j2602
+INFO:arbitrage:ploting price diff of sfit.future.j2602 & sfit.future.j2603
+INFO:arbitrage:ploting price diff of sfit.future.j2603 & sfit.future.j2604
+INFO:arbitrage:ploting price diff of sfit.future.j2604 & sfit.future.j2605
+INFO:arbitrage:instrument report `j` is saved
+INFO:arbitrage:loading data of `RM*`
+INFO:arbitrage:instrument list of `RM` is `['sfit.future.RM507', 'sfit.future.RM509', 'sfit.future.RM508', 'sfit.future.RM603', 'sfit.future.RM601', 'sfit.future.RM511', 'sfit.future.RM605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.RM507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.08/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RM509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.48/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RM508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.51/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RM603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.41/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RM601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.11/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RM511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (5.81/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RM605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.50/s) 
+INFO:arbitrage:dict_keys(['sfit.future.RM507', 'sfit.future.RM509', 'sfit.future.RM508', 'sfit.future.RM603', 'sfit.future.RM601', 'sfit.future.RM511', 'sfit.future.RM605'])
+INFO:arbitrage:ploting price diff of sfit.future.RM507 & sfit.future.RM508
+INFO:arbitrage:ploting price diff of sfit.future.RM508 & sfit.future.RM509
+INFO:arbitrage:ploting price diff of sfit.future.RM509 & sfit.future.RM511
+INFO:arbitrage:ploting price diff of sfit.future.RM511 & sfit.future.RM601
+INFO:arbitrage:ploting price diff of sfit.future.RM601 & sfit.future.RM603
+INFO:arbitrage:ploting price diff of sfit.future.RM603 & sfit.future.RM605
+INFO:arbitrage:instrument report `RM` is saved
+INFO:arbitrage:loading data of `cs*`
+INFO:arbitrage:instrument list of `cs` is `['sfit.future.cs2509', 'sfit.future.cs2507', 'sfit.future.cs2603', 'sfit.future.cs2601', 'sfit.future.cs2511', 'sfit.future.cs2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.cs2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.18/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.cs2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.87/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.cs2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (5.90/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.cs2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.49/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.cs2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.00/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.cs2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.32/s) 
+INFO:arbitrage:dict_keys(['sfit.future.cs2509', 'sfit.future.cs2507', 'sfit.future.cs2603', 'sfit.future.cs2601', 'sfit.future.cs2511', 'sfit.future.cs2605'])
+INFO:arbitrage:ploting price diff of sfit.future.cs2507 & sfit.future.cs2509
+INFO:arbitrage:ploting price diff of sfit.future.cs2509 & sfit.future.cs2511
+INFO:arbitrage:ploting price diff of sfit.future.cs2511 & sfit.future.cs2601
+INFO:arbitrage:ploting price diff of sfit.future.cs2601 & sfit.future.cs2603
+INFO:arbitrage:ploting price diff of sfit.future.cs2603 & sfit.future.cs2605
+INFO:arbitrage:instrument report `cs` is saved
+INFO:arbitrage:loading data of `RS*`
+INFO:arbitrage:instrument list of `RS` is `['sfit.future.RS507', 'sfit.future.RS509', 'sfit.future.RS508', 'sfit.future.RS511']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.RS507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 2.4s (0.84/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RS509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.82/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RS508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (15.14/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.RS511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.13/s) 
+INFO:arbitrage:dict_keys(['sfit.future.RS507', 'sfit.future.RS509', 'sfit.future.RS508', 'sfit.future.RS511'])
+INFO:arbitrage:ploting price diff of sfit.future.RS507 & sfit.future.RS508
+INFO:arbitrage:ploting price diff of sfit.future.RS508 & sfit.future.RS509
+INFO:arbitrage:ploting price diff of sfit.future.RS509 & sfit.future.RS511
+INFO:arbitrage:instrument report `RS` is saved
+INFO:arbitrage:loading data of `jd*`
+INFO:arbitrage:instrument list of `jd` is `['sfit.future.jd2509', 'sfit.future.jd2507', 'sfit.future.jd2506', 'sfit.future.jd2510', 'sfit.future.jd2508', 'sfit.future.jd2511', 'sfit.future.jd2512', 'sfit.future.jd2601', 'sfit.future.jd2602', 'sfit.future.jd2603', 'sfit.future.jd2604', 'sfit.future.jd2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.13/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.06/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2506]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (15.69/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.49/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.70/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.56/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (13.66/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (10.84/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (14.85/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (44.39/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (20.39/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jd2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (18.51/s) 
+INFO:arbitrage:dict_keys(['sfit.future.jd2509', 'sfit.future.jd2507', 'sfit.future.jd2506', 'sfit.future.jd2510', 'sfit.future.jd2508', 'sfit.future.jd2511', 'sfit.future.jd2512', 'sfit.future.jd2601', 'sfit.future.jd2602', 'sfit.future.jd2603', 'sfit.future.jd2604', 'sfit.future.jd2605'])
+INFO:arbitrage:ploting price diff of sfit.future.jd2506 & sfit.future.jd2507
+INFO:arbitrage:ploting price diff of sfit.future.jd2507 & sfit.future.jd2508
+INFO:arbitrage:ploting price diff of sfit.future.jd2508 & sfit.future.jd2509
+INFO:arbitrage:ploting price diff of sfit.future.jd2509 & sfit.future.jd2510
+INFO:arbitrage:ploting price diff of sfit.future.jd2510 & sfit.future.jd2511
+INFO:arbitrage:ploting price diff of sfit.future.jd2511 & sfit.future.jd2512
+INFO:arbitrage:ploting price diff of sfit.future.jd2512 & sfit.future.jd2601
+INFO:arbitrage:ploting price diff of sfit.future.jd2601 & sfit.future.jd2602
+INFO:arbitrage:ploting price diff of sfit.future.jd2602 & sfit.future.jd2603
+INFO:arbitrage:ploting price diff of sfit.future.jd2603 & sfit.future.jd2604
+INFO:arbitrage:ploting price diff of sfit.future.jd2604 & sfit.future.jd2605
+INFO:arbitrage:instrument report `jd` is saved
+INFO:arbitrage:loading data of `m*`
+INFO:arbitrage:instrument list of `m` is `['sfit.future.m2509', 'sfit.future.m2508', 'sfit.future.m2507', 'sfit.future.m2512', 'sfit.future.m2601', 'sfit.future.m2511', 'sfit.future.m2603', 'sfit.future.m2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.38/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.71/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.07/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.16/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.2s (1.68/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.27/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.68/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.m2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.48/s) 
+INFO:arbitrage:dict_keys(['sfit.future.m2509', 'sfit.future.m2508', 'sfit.future.m2507', 'sfit.future.m2512', 'sfit.future.m2601', 'sfit.future.m2511', 'sfit.future.m2603', 'sfit.future.m2605'])
+INFO:arbitrage:ploting price diff of sfit.future.m2507 & sfit.future.m2508
+INFO:arbitrage:ploting price diff of sfit.future.m2508 & sfit.future.m2509
+INFO:arbitrage:ploting price diff of sfit.future.m2509 & sfit.future.m2511
+INFO:arbitrage:ploting price diff of sfit.future.m2511 & sfit.future.m2512
+INFO:arbitrage:ploting price diff of sfit.future.m2512 & sfit.future.m2601
+INFO:arbitrage:ploting price diff of sfit.future.m2601 & sfit.future.m2603
+INFO:arbitrage:ploting price diff of sfit.future.m2603 & sfit.future.m2605
+INFO:arbitrage:instrument report `m` is saved
 INFO:arbitrage:loading data of `MA*`
 INFO:arbitrage:instrument list of `MA` is `['sfit.future.MA506', 'sfit.future.MA509', 'sfit.future.MA508', 'sfit.future.MA507', 'sfit.future.MA510', 'sfit.future.MA602', 'sfit.future.MA512', 'sfit.future.MA601', 'sfit.future.MA511', 'sfit.future.MA604', 'sfit.future.MA603', 'sfit.future.MA605']`
-INFO:thunder-tickutils:[TickUtils][sfit.future.MA506]Date range is ['20250301', '20250302', '20250303', '20250304', '20250305', '20250306', '20250307', '20250308', '20250309', '20250310', '20250311', '20250312', '20250313', '20250314', '20250315', '20250316', '20250317', '20250318', '20250319', '20250320', '20250321', '20250322', '20250323', '20250324', '20250325', '20250326', '20250327', '20250328', '20250329', '20250330', '20250331', '20250401', '20250402', '20250403', '20250404', '20250405', '20250406', '20250407', '20250408', '20250409', '20250410', '20250411', '20250412', '20250413', '20250414', '20250415', '20250416', '20250417', '20250418', '20250419', '20250420', '20250421', '20250422', '20250423', '20250424', '20250425', '20250426', '20250427', '20250428', '20250429', '20250430', '20250501', '20250502', '20250503', '20250504', '20250505', '20250506', '20250507', '20250508', '20250509', '20250510', '20250511', '20250512', '20250513', '20250514', '20250515', '20250516', '20250517', '20250518', '20250519', '20250520', '20250521', '20250522', '20250523', '20250524', '20250525', '20250526', '20250527', '20250528', '20250529', '20250530', '20250531', '20250601', '20250602', '20250603', '20250604', '20250605', '20250606', '20250607', '20250608', '20250609', '20250610', '20250611', '20250612', '20250613', '20250614', '20250615', '20250616', '20250617']
-on 0: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250301]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250302]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 2: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250303]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 3: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250304]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 4: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250305]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 5: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250306]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 6: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250307]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 7: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250308]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 8: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250309]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 9: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250310]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 10: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250311]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 11: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250312]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 12: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250313]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 13: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250314]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 14: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250315]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 15: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250316]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 16: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250317]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 17: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250318]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 18: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250319]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 19: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250320]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 20: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250321]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 21: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250322]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 22: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250323]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 23: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250324]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 24: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250325]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 25: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250326]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 26: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250327]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 27: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250328]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 28: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250329]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 29: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250330]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 30: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250331]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 31: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250401]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 32: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250402]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 33: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250403]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 34: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250404]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 35: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250405]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 36: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250406]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 37: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250407]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 38: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250408]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 39: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250409]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 40: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250410]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 41: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250411]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 42: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250412]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 43: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250413]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 44: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250414]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 45: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250415]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 46: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250416]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 47: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250417]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 48: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250418]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 49: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250419]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 50: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250420]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 51: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250421]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 52: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250422]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 53: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250423]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 54: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250424]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 55: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250425]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 56: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250426]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 57: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250427]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 58: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250428]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 59: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250429]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 60: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250430]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 61: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250501]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 62: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250502]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 63: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250503]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 64: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250504]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 65: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250505]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 70: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250510]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 71: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250511]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 77: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250517]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 78: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250518]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 83: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250523]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 84: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250524]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 85: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250525]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 86: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250526]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 87: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250527]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 88: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250528]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 89: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250529]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 90: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250530]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 91: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250531]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 92: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250601]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 93: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250602]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 94: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250603]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 95: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250604]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 96: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250605]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 98: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250607]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 99: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250608]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 105: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250614]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 106: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250615]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 108: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-|████████████████████████████████████████| 109/109 [100%] in 25.1s (4.35/s) 
-INFO:thunder-tickutils:[TickUtils][sfit.future.MA509]Date range is ['20250301', '20250302', '20250303', '20250304', '20250305', '20250306', '20250307', '20250308', '20250309', '20250310', '20250311', '20250312', '20250313', '20250314', '20250315', '20250316', '20250317', '20250318', '20250319', '20250320', '20250321', '20250322', '20250323', '20250324', '20250325', '20250326', '20250327', '20250328', '20250329', '20250330', '20250331', '20250401', '20250402', '20250403', '20250404', '20250405', '20250406', '20250407', '20250408', '20250409', '20250410', '20250411', '20250412', '20250413', '20250414', '20250415', '20250416', '20250417', '20250418', '20250419', '20250420', '20250421', '20250422', '20250423', '20250424', '20250425', '20250426', '20250427', '20250428', '20250429', '20250430', '20250501', '20250502', '20250503', '20250504', '20250505', '20250506', '20250507', '20250508', '20250509', '20250510', '20250511', '20250512', '20250513', '20250514', '20250515', '20250516', '20250517', '20250518', '20250519', '20250520', '20250521', '20250522', '20250523', '20250524', '20250525', '20250526', '20250527', '20250528', '20250529', '20250530', '20250531', '20250601', '20250602', '20250603', '20250604', '20250605', '20250606', '20250607', '20250608', '20250609', '20250610', '20250611', '20250612', '20250613', '20250614', '20250615', '20250616', '20250617']
-on 0: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250301]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250302]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 2: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250303]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 3: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250304]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 4: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250305]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 5: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250306]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 6: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250307]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 7: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250308]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 8: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250309]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 9: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250310]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 10: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250311]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 11: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250312]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 12: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250313]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 13: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250314]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 14: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250315]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 15: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250316]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 16: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250317]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 17: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250318]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 18: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250319]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 19: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250320]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 20: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250321]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 21: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250322]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 22: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250323]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 23: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250324]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 24: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250325]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 25: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250326]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 26: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250327]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 27: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250328]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 28: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250329]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 29: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250330]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 30: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250331]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 31: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250401]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 32: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250402]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 33: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250403]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 34: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250404]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 35: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250405]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 36: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250406]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 37: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250407]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 38: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250408]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 39: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250409]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 40: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250410]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 41: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250411]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 42: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250412]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 43: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250413]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 44: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250414]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 45: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250415]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 46: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250416]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 47: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250417]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 48: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250418]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 49: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250419]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 50: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250420]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 51: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250421]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 52: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250422]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 53: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250423]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 54: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250424]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 55: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250425]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 56: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250426]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 57: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250427]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 58: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250428]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 59: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250429]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 60: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250430]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 61: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250501]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 62: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250502]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 63: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250503]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 64: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250504]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 65: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250505]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 70: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250510]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 71: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250511]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 77: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250517]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 78: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250518]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 83: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250523]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 84: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250524]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 85: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250525]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 86: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250526]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 87: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250527]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 88: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250528]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 89: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250529]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 90: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250530]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 91: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250531]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 92: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250601]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 93: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250602]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 94: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250603]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 95: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250604]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 96: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250605]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 98: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250607]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 99: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250608]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 105: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250614]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 106: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA509][20250615]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-|████████████████████████████████████████| 109/109 [100%] in 21.3s (5.12/s) 
-INFO:thunder-tickutils:[TickUtils][sfit.future.MA508]Date range is ['20250301', '20250302', '20250303', '20250304', '20250305', '20250306', '20250307', '20250308', '20250309', '20250310', '20250311', '20250312', '20250313', '20250314', '20250315', '20250316', '20250317', '20250318', '20250319', '20250320', '20250321', '20250322', '20250323', '20250324', '20250325', '20250326', '20250327', '20250328', '20250329', '20250330', '20250331', '20250401', '20250402', '20250403', '20250404', '20250405', '20250406', '20250407', '20250408', '20250409', '20250410', '20250411', '20250412', '20250413', '20250414', '20250415', '20250416', '20250417', '20250418', '20250419', '20250420', '20250421', '20250422', '20250423', '20250424', '20250425', '20250426', '20250427', '20250428', '20250429', '20250430', '20250501', '20250502', '20250503', '20250504', '20250505', '20250506', '20250507', '20250508', '20250509', '20250510', '20250511', '20250512', '20250513', '20250514', '20250515', '20250516', '20250517', '20250518', '20250519', '20250520', '20250521', '20250522', '20250523', '20250524', '20250525', '20250526', '20250527', '20250528', '20250529', '20250530', '20250531', '20250601', '20250602', '20250603', '20250604', '20250605', '20250606', '20250607', '20250608', '20250609', '20250610', '20250611', '20250612', '20250613', '20250614', '20250615', '20250616', '20250617']
-on 0: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250301]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250302]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 2: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250303]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 3: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250304]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 4: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250305]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 5: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250306]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 6: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250307]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 7: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250308]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 8: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250309]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 9: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250310]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 10: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250311]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 11: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250312]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 12: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250313]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 13: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250314]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 14: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250315]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 15: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250316]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 16: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250317]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 17: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250318]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 18: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250319]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 19: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250320]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 20: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250321]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 21: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250322]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 22: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250323]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 23: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250324]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 24: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250325]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 25: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250326]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 26: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250327]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 27: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250328]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 28: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250329]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 29: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250330]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 30: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250331]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 31: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250401]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 32: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250402]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 33: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250403]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 34: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250404]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 35: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250405]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 36: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250406]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 37: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250407]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 38: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250408]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 39: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250409]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 40: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250410]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 41: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250411]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 42: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250412]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 43: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250413]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 44: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250414]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 45: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250415]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 46: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250416]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 47: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250417]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 48: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250418]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 49: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250419]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 50: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250420]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 51: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250421]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 52: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250422]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 53: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250423]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 54: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250424]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 55: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250425]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 56: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250426]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 57: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250427]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 58: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250428]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 59: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250429]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 60: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250430]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 61: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250501]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 62: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250502]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 63: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250503]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 64: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250504]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 65: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250505]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 70: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250510]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 71: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250511]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 77: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250517]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
-on 78: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA508][20250518]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.MA506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (16.81/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.3s (1.51/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.8s (2.37/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.65/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.87/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.2s (1.69/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.22/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.9s (2.15/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.97/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.94/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.65/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.MA605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.01/s) 
+INFO:arbitrage:dict_keys(['sfit.future.MA506', 'sfit.future.MA509', 'sfit.future.MA508', 'sfit.future.MA507', 'sfit.future.MA510', 'sfit.future.MA602', 'sfit.future.MA512', 'sfit.future.MA601', 'sfit.future.MA511', 'sfit.future.MA604', 'sfit.future.MA603', 'sfit.future.MA605'])
+INFO:arbitrage:ploting price diff of sfit.future.MA506 & sfit.future.MA507
+INFO:arbitrage:ploting price diff of sfit.future.MA507 & sfit.future.MA508
+INFO:arbitrage:ploting price diff of sfit.future.MA508 & sfit.future.MA509
+INFO:arbitrage:ploting price diff of sfit.future.MA509 & sfit.future.MA510
+INFO:arbitrage:ploting price diff of sfit.future.MA510 & sfit.future.MA511
+INFO:arbitrage:ploting price diff of sfit.future.MA511 & sfit.future.MA512
+INFO:arbitrage:ploting price diff of sfit.future.MA512 & sfit.future.MA601
+INFO:arbitrage:ploting price diff of sfit.future.MA601 & sfit.future.MA602
+INFO:arbitrage:ploting price diff of sfit.future.MA602 & sfit.future.MA603
+INFO:arbitrage:ploting price diff of sfit.future.MA603 & sfit.future.MA604
+INFO:arbitrage:ploting price diff of sfit.future.MA604 & sfit.future.MA605
+INFO:arbitrage:instrument report `MA` is saved
+INFO:arbitrage:loading data of `a*`
+INFO:arbitrage:instrument list of `a` is `['sfit.future.a2507', 'sfit.future.a2509', 'sfit.future.a2603', 'sfit.future.a2601', 'sfit.future.a2511', 'sfit.future.a2605']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.a2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.6s (1.27/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.a2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 4.3s (0.47/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.a2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.7s (2.85/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.a2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (2.07/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.a2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.50/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.a2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.98/s) 
+INFO:arbitrage:dict_keys(['sfit.future.a2507', 'sfit.future.a2509', 'sfit.future.a2603', 'sfit.future.a2601', 'sfit.future.a2511', 'sfit.future.a2605'])
+INFO:arbitrage:ploting price diff of sfit.future.a2507 & sfit.future.a2509
+INFO:arbitrage:ploting price diff of sfit.future.a2509 & sfit.future.a2511
+INFO:arbitrage:ploting price diff of sfit.future.a2511 & sfit.future.a2601
+INFO:arbitrage:ploting price diff of sfit.future.a2601 & sfit.future.a2603
+INFO:arbitrage:ploting price diff of sfit.future.a2603 & sfit.future.a2605
+INFO:arbitrage:instrument report `a` is saved
+INFO:arbitrage:loading data of `jm*`
+INFO:arbitrage:instrument list of `jm` is `['sfit.future.jm2506', 'sfit.future.jm2507', 'sfit.future.jm2509', 'sfit.future.jm2508', 'sfit.future.jm2510', 'sfit.future.jm2512', 'sfit.future.jm2602', 'sfit.future.jm2603', 'sfit.future.jm2601', 'sfit.future.jm2511', 'sfit.future.jm2605', 'sfit.future.jm2604']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.jm2506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.0s (46.25/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (34.00/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.1s (1.77/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.02/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.56/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.62/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.48/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (9.97/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.50/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.09/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.07/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.jm2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.18/s) 
+INFO:arbitrage:dict_keys(['sfit.future.jm2506', 'sfit.future.jm2507', 'sfit.future.jm2509', 'sfit.future.jm2508', 'sfit.future.jm2510', 'sfit.future.jm2512', 'sfit.future.jm2602', 'sfit.future.jm2603', 'sfit.future.jm2601', 'sfit.future.jm2511', 'sfit.future.jm2605', 'sfit.future.jm2604'])
+INFO:arbitrage:ploting price diff of sfit.future.jm2506 & sfit.future.jm2507
+INFO:arbitrage:ploting price diff of sfit.future.jm2507 & sfit.future.jm2508
+INFO:arbitrage:ploting price diff of sfit.future.jm2508 & sfit.future.jm2509
+INFO:arbitrage:ploting price diff of sfit.future.jm2509 & sfit.future.jm2510
+INFO:arbitrage:ploting price diff of sfit.future.jm2510 & sfit.future.jm2511
+INFO:arbitrage:ploting price diff of sfit.future.jm2511 & sfit.future.jm2512
+INFO:arbitrage:ploting price diff of sfit.future.jm2512 & sfit.future.jm2601
+INFO:arbitrage:ploting price diff of sfit.future.jm2601 & sfit.future.jm2602
+INFO:arbitrage:ploting price diff of sfit.future.jm2602 & sfit.future.jm2603
+INFO:arbitrage:ploting price diff of sfit.future.jm2603 & sfit.future.jm2604
+INFO:arbitrage:ploting price diff of sfit.future.jm2604 & sfit.future.jm2605
+INFO:arbitrage:instrument report `jm` is saved
+INFO:arbitrage:loading data of `rr*`
+INFO:arbitrage:instrument list of `rr` is `['sfit.future.rr2509', 'sfit.future.rr2508', 'sfit.future.rr2506', 'sfit.future.rr2507', 'sfit.future.rr2510', 'sfit.future.rr2602', 'sfit.future.rr2512', 'sfit.future.rr2601', 'sfit.future.rr2511', 'sfit.future.rr2605', 'sfit.future.rr2603', 'sfit.future.rr2604']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (7.75/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (10.98/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.rr2506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (38.33/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (15.59/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.11/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (8.73/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (18.28/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (13.20/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.68/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (9.34/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.3s (6.78/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.rr2604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (11.91/s) 
+INFO:arbitrage:dict_keys(['sfit.future.rr2509', 'sfit.future.rr2508', 'sfit.future.rr2506', 'sfit.future.rr2507', 'sfit.future.rr2510', 'sfit.future.rr2602', 'sfit.future.rr2512', 'sfit.future.rr2601', 'sfit.future.rr2511', 'sfit.future.rr2605', 'sfit.future.rr2603', 'sfit.future.rr2604'])
+INFO:arbitrage:ploting price diff of sfit.future.rr2506 & sfit.future.rr2507
+INFO:arbitrage:ploting price diff of sfit.future.rr2507 & sfit.future.rr2508
+INFO:arbitrage:ploting price diff of sfit.future.rr2508 & sfit.future.rr2509
+INFO:arbitrage:ploting price diff of sfit.future.rr2509 & sfit.future.rr2510
+INFO:arbitrage:ploting price diff of sfit.future.rr2510 & sfit.future.rr2511
+INFO:arbitrage:ploting price diff of sfit.future.rr2511 & sfit.future.rr2512
+INFO:arbitrage:ploting price diff of sfit.future.rr2512 & sfit.future.rr2601
+INFO:arbitrage:ploting price diff of sfit.future.rr2601 & sfit.future.rr2602
+INFO:arbitrage:ploting price diff of sfit.future.rr2602 & sfit.future.rr2603
+INFO:arbitrage:ploting price diff of sfit.future.rr2603 & sfit.future.rr2604
+INFO:arbitrage:ploting price diff of sfit.future.rr2604 & sfit.future.rr2605
+INFO:arbitrage:instrument report `rr` is saved
+INFO:arbitrage:loading data of `PR*`
+INFO:arbitrage:instrument list of `PR` is `['sfit.future.PR509', 'sfit.future.PR510', 'sfit.future.PR506', 'sfit.future.PR508', 'sfit.future.PR507', 'sfit.future.PR602', 'sfit.future.PR512', 'sfit.future.PR603', 'sfit.future.PR601', 'sfit.future.PR511', 'sfit.future.PR605', 'sfit.future.PR604']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.2s (1.63/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.22/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.PR506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.1s (23.52/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.12/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.68/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.14/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.82/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (4.85/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.31/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.20/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.10/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.PR604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.4s (5.65/s) 
+INFO:arbitrage:dict_keys(['sfit.future.PR509', 'sfit.future.PR510', 'sfit.future.PR506', 'sfit.future.PR508', 'sfit.future.PR507', 'sfit.future.PR602', 'sfit.future.PR512', 'sfit.future.PR603', 'sfit.future.PR601', 'sfit.future.PR511', 'sfit.future.PR605', 'sfit.future.PR604'])
+INFO:arbitrage:ploting price diff of sfit.future.PR506 & sfit.future.PR507
+INFO:arbitrage:ploting price diff of sfit.future.PR507 & sfit.future.PR508
+INFO:arbitrage:ploting price diff of sfit.future.PR508 & sfit.future.PR509
+INFO:arbitrage:ploting price diff of sfit.future.PR509 & sfit.future.PR510
+INFO:arbitrage:ploting price diff of sfit.future.PR510 & sfit.future.PR511
+INFO:arbitrage:ploting price diff of sfit.future.PR511 & sfit.future.PR512
+INFO:arbitrage:ploting price diff of sfit.future.PR512 & sfit.future.PR601
+INFO:arbitrage:ploting price diff of sfit.future.PR601 & sfit.future.PR602
+INFO:arbitrage:ploting price diff of sfit.future.PR602 & sfit.future.PR603
+INFO:arbitrage:ploting price diff of sfit.future.PR603 & sfit.future.PR604
+INFO:arbitrage:ploting price diff of sfit.future.PR604 & sfit.future.PR605
+INFO:arbitrage:instrument report `PR` is saved
+INFO:arbitrage:loading data of `FG*`
+INFO:arbitrage:instrument list of `FG` is `['sfit.future.FG506', 'sfit.future.FG509', 'sfit.future.FG508', 'sfit.future.FG507', 'sfit.future.FG510', 'sfit.future.FG512', 'sfit.future.FG602', 'sfit.future.FG603', 'sfit.future.FG601', 'sfit.future.FG511', 'sfit.future.FG605', 'sfit.future.FG604']`
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG506]Date range is ['20250616', '20250617']
+on 1: WARNING:thunder-tickutils:[TickUtils][sfit.future.FG506][20250617]Loading ticks from remote `http://192.168.3.44:70` failed for response code is 404
+|████████████████████████████████████████| 2/2 [100%] in 0.2s (10.33/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG509]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 2.6s (0.78/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG508]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 4.2s (0.47/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG507]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.45/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG510]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.37/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG512]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.22/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG602]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.06/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG603]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (3.78/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG601]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 1.0s (2.03/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG511]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.49/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG605]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.5s (4.11/s) 
+INFO:thunder-tickutils:[TickUtils][sfit.future.FG604]Date range is ['20250616', '20250617']
+|████████████████████████████████████████| 2/2 [100%] in 0.6s (3.62/s) 
+INFO:arbitrage:dict_keys(['sfit.future.FG506', 'sfit.future.FG509', 'sfit.future.FG508', 'sfit.future.FG507', 'sfit.future.FG510', 'sfit.future.FG512', 'sfit.future.FG602', 'sfit.future.FG603', 'sfit.future.FG601', 'sfit.future.FG511', 'sfit.future.FG605', 'sfit.future.FG604'])
+INFO:arbitrage:ploting price diff of sfit.future.FG506 & sfit.future.FG507
+INFO:arbitrage:ploting price diff of sfit.future.FG507 & sfit.future.FG508
+INFO:arbitrage:ploting price diff of sfit.future.FG508 & sfit.future.FG509
+INFO:arbitrage:ploting price diff of sfit.future.FG509 & sfit.future.FG510
+INFO:arbitrage:ploting price diff of sfit.future.FG510 & sfit.future.FG511
+INFO:arbitrage:ploting price diff of sfit.future.FG511 & sfit.future.FG512
+INFO:arbitrage:ploting price diff of sfit.future.FG512 & sfit.future.FG601
+INFO:arbitrage:ploting price diff of sfit.future.FG601 & sfit.future.FG602
+INFO:arbitrage:ploting price diff of sfit.future.FG602 & sfit.future.FG603
+INFO:arbitrage:ploting price diff of sfit.future.FG603 & sfit.future.FG604
+INFO:arbitrage:ploting price diff of sfit.future.FG604 & sfit.future.FG605
+INFO:arbitrage:instrument report `FG` is saved
