@@ -188,7 +188,7 @@ if __name__ == '__main__':
             last_price_1 = [t * multiply_1 for t in serials[serial_1]]
             size = len(last_price_0)
             last_price_diff = [last_price_0[i] - last_price_1[i] for i in range(0, size)]
-            fig = plt.figure(tight_layout=True, figsize=(20, 10))
+            fig = plt.figure(tight_layout=True, figsize=(32, 18))
             ax = fig.add_subplot()
             
             ax.plot(last_price_0, color='tab:green', label=serial_0)

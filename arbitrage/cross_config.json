@@ -4,13 +4,18 @@
         "sfit": "cu"
     },
     {
-        "enable": 1,
+        "enable": 0,
         "slot_0": { "name": "sfit.future.bc2507", "multiply": 1 },
         "slot_1": { "name": "sfit.future.cu2507", "multiply": 1 }
     },
     {
         "enable": 1,
-        "slot_0": { "name": "sfit.future.j2507", "multiply": 1 },
-        "slot_1": { "name": "sfit.future.jm2507", "multiply": 2 }
+        "slot_0": { "name": "sfit.future.al2507", "multiply": 1 },
+        "slot_1": { "name": "sfit.future.al2508", "multiply": 1 }
+    },
+    {
+        "enable": 0,
+        "slot_0": { "name": "sfit.future.a2509", "multiply": 1 },
+        "slot_1": { "name": "sfit.future.b2509", "multiply": 1 }
     }
 ]
