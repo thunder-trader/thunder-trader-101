@@ -43,10 +43,13 @@ def align_ticks_by_window(tick_serials, window_size):
     window = lambda t : int(t.timestamp / window_size)
     result = dict()
     h = []
-    names = set(tick_serials.keys())
-    for name, ticks_list in tick_serials.items():
+    names = set()
+    for ticks_list in tick_serials:
         for tick in ticks_list:
-            h.append(_node(tick.timestamp, tick))
+            node = _node(tick.timestamp, tick)
+            if node.unique_name not in names:
+                names.add(node.unique_name)
+            h.append(node)
     if len(h) == 0:
         return result
     heapq.heapify(h)
@@ -67,13 +70,13 @@ def align_ticks_by_window(tick_serials, window_size):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    ticks = dict()
     serial_0 = "sfit.future.bc2509"
     serial_1 = "ibkr.tws.l1.COMEX.447585333"
     serial_2 = "sfit.future.cu2509"
-    ticks[serial_0] = load_tick_data_by_name(serial_0, START_DATE)
-    ticks[serial_1] = load_tick_data_by_name(serial_1, START_DATE)
-    ticks[serial_2] = load_tick_data_by_name(serial_2, START_DATE)
+    ticks = []
+    ticks.append(load_tick_data_by_name(serial_0, START_DATE))
+    ticks.append(load_tick_data_by_name(serial_1, START_DATE))
+    ticks.append(load_tick_data_by_name(serial_2, START_DATE))
     serials = align_ticks_by_window(ticks, 1000)
     last_price_0 = [t.last_price * 7.1 * 25000 * 5 / 11 if t is not None else float("NaN") for t in serials[serial_0]]
     last_price_1 = [t.last_price * 5.0 if t is not None else float("NaN")for t in serials[serial_1]]
