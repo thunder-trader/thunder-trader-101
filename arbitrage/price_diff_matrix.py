@@ -116,14 +116,14 @@ if __name__ == '__main__':
 		"ibkr.tws.l1.COMEX.447766922"
     ]
     cu = [
-        "sfit.future.cu2508",
-        "sfit.future.cu2509",
-        "sfit.future.cu2510",
-        "sfit.future.cu2511",
-		"sfit.future.cu2512",
+        "sfit.future.c2508",
+        "sfit.future.c2509",
+        "sfit.future.c2510",
+        "sfit.future.c2511",
+		"sfit.future.c2512",
     ]
 
-    price_diff_matrix_t.price_diff_matrix("%s/cu.png" % (REPORT_PATH), cu, '20250701', '20250731', DATA_CENTER)
+    price_diff_matrix_t.price_diff_matrix("%s/c.png" % (REPORT_PATH), cu, '20250701', '20250731', DATA_CENTER)
     
 
     
