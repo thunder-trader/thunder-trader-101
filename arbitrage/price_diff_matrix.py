@@ -122,8 +122,13 @@ if __name__ == '__main__':
         "sfit.future.c2511",
 		"sfit.future.c2512",
     ]
+    ZC = [
+        "ibkr.tws.l1.CBOT.602619745",
+        "ibkr.tws.l1.CBOT.532513373",
+        "ibkr.tws.l1.CBOT.671574012"
+    ]
 
-    price_diff_matrix_t.price_diff_matrix("%s/c.png" % (REPORT_PATH), cu, '20250701', '20250731', DATA_CENTER)
+    price_diff_matrix_t.price_diff_matrix("%s/ZC.png" % (REPORT_PATH), ZC, '20250801', '20250805', DATA_CENTER)
     
 
     
