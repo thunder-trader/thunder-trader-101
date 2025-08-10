@@ -16,7 +16,7 @@ import pythunder.instrument
 import pythunder.tickutils as ptu
 
 # Start data
-START_DATE = "20250618"
+START_DATE = "20250707"
 # Output path
 REPORT_PATH = "/publish/future_price_diff"
 # Data center
@@ -35,8 +35,8 @@ def load_tick_data_by_name(instrument, start_data):
     return ptu.load_from_data_center(instrument, start.strftime("%Y%m%d"), end.strftime("%Y%m%d"), DATA_CENTER)
 
 if __name__ == "__main__":
-    slot_0 = "sfit.future.RM508"
-    slot_1 = "sfit.future.RM509"
+    slot_0 = "ibkr.tws.l1.COMEX.447585333"
+    slot_1 = "sfit.future.cu2508"
     if len(sys.argv) == 3:
         slot_0 = sys.argv[1]
         slot_1 = sys.argv[2]

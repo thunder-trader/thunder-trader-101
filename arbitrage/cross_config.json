@@ -4,12 +4,12 @@
         "sfit": "cu"
     },
     {
-        "enable": 0,
-        "slot_0": { "name": "sfit.future.bc2507", "multiply": 1 },
+        "enable": 1,
+        "slot_0": { "name": "ibkr.tws.l1.COMEX.447585333", "multiply": 1 },
         "slot_1": { "name": "sfit.future.cu2507", "multiply": 1 }
     },
     {
-        "enable": 1,
+        "enable": 0,
         "slot_0": { "name": "sfit.future.al2507", "multiply": 1 },
         "slot_1": { "name": "sfit.future.al2508", "multiply": 1 }
     },
